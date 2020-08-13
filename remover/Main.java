@@ -7,7 +7,7 @@ public class Main {
     public static void removeOggy(ArrayList<String> names) {
         String substr = "oggy";
         int len = names.size();
-        for(int i =len-1; i>=0; i++)
+        for(int i =len-1; i>=0; i--)
         {
             if(names.get(i).contains(substr))
                 names.remove(i);
